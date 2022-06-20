@@ -9,9 +9,9 @@ use Database\Tables\GenerationsTable;
 use Database\Tables\ModelsTable;
 use Database\Tables\SimpleTable;
 use Helpers\CarXmlToAssocConverter;
-use Parser\GenerationsParser;
-use Parser\ModelsParser;
-use Parser\SimpleParser;
+use Parsers\GenerationsParser;
+use Parsers\ModelsParser;
+use Parsers\SimpleParser;
 
 require 'vendor/autoload.php';
 

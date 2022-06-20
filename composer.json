@@ -16,7 +16,7 @@
             "Helpers\\": "Helpers",
             "Locator\\": "Locator",
             "Database\\": "Database",
-            "Parser\\": "Parser"
+            "Parsers\\": "Parsers"
         }
     },
     "autoload-dev": {

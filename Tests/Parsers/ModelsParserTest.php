@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Tests\Parser;
+namespace Tests\Parsers;
 
 use Locator\Locator;
-use Parser\ModelsParser;
+use Parsers\ModelsParser;
 use PHPUnit\Framework\TestCase;
 
 final class ModelsParserTest extends TestCase
