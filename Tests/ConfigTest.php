@@ -5,7 +5,7 @@ namespace Tests;
 use Helpers\Config;
 use PHPUnit\Framework\TestCase;
 
-class ConfigTest extends TestCase
+final class ConfigTest extends TestCase
 {
     /** @test */
     public function returns_correct_data_in_test_environement()

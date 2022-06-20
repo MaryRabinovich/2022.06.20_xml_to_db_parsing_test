@@ -5,7 +5,7 @@ namespace Locator;
 use Exception;
 use Helpers\Config;
 
-class Locator
+final class Locator
 {
     private static $filePath, $pathType;
 

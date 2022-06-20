@@ -7,7 +7,7 @@ use Locator\Locator;
 use PHPUnit\Framework\TestCase;
 use SimpleXMLElement;
 
-class LocatorTest extends TestCase
+final class LocatorTest extends TestCase
 {
     /** @test */
     public function when_array_of_parameters_is_empty_returns_default_xml()
@@ -72,7 +72,6 @@ class LocatorTest extends TestCase
         try {
             Locator::getXml(['rel', 'absent.xml']);
         } catch (Exception $e) {
-            echo $e->getMessage();
             $this->assertStringContainsString(
                 'Такого файла нет.',
                 $e->getMessage()

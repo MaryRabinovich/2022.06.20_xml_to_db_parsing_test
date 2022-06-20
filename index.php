@@ -7,5 +7,8 @@ require 'vendor/autoload.php';
 
 // echo Config::get('locator','base');
 
-array_shift($argv);
-$path = Locator::getPath($argv);
+// array_shift($argv);
+// $xml = Locator::getXml($argv);
+// echo $xml->getName();
+$xml = Locator::getXml(['rel', 'offers.xml']);
+echo $xml->getName();
