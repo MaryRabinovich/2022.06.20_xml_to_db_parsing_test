@@ -15,7 +15,8 @@
         "psr-4": {
             "Helpers\\": "Helpers",
             "Locator\\": "Locator",
-            "Database\\": "Database"
+            "Database\\": "Database",
+            "Parser\\": "Parser"
         }
     },
     "autoload-dev": {

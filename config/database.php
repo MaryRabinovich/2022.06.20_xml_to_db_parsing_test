@@ -8,5 +8,5 @@ return [
     
     'password' => '',
 
-    // 'db_name' => 'test_base'
+    'db_name' => 'test_base'
 ];

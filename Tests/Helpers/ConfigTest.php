@@ -12,8 +12,8 @@ final class ConfigTest extends TestCase
     {
         $env = require __DIR__.'/../../env.php';
 
-        if ($env != 'prod' && $env != 'test') {
-            die ('Задайте окружение в файле env.php');
+        if ($env != 'test') {
+            die ("Задайте окружение 'test' в файле env.php");
         }
 
         $this->assertSame(
