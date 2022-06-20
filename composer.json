@@ -1,0 +1,14 @@
+{
+    "name": "maryrabinovich/xml-to-mysql-parsing-test",
+    "authors": [
+        {
+            "name": "MaryRabinovich",
+            "email": "mary.rabinovich@mail.ru"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
