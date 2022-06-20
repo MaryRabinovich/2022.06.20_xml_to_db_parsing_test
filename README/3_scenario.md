@@ -29,8 +29,6 @@ cars.
 
 Выделить из файла выгрузки массивы уникальных имён.
 
-Отфильтровать массивы c FILTER_SANITIZE_STRING.
-
 Внести данные в соотв. таблицы.
 
 Прочесть из таблиц результат 
@@ -40,8 +38,6 @@ cars.
 
 Выделить из файла выгрузки 
 ассоциативный массив modelName=>markName.
-
-Отфильтровать ключи и значения c FILTER_SANITIZE_STRING.
 
 Превратить в массив modelName=>markId,
 используя массив markName=>markId из предыдущего шага.
@@ -55,10 +51,6 @@ cars.
 
 Выделить из файла выгрузки
 ассоциативный массив generationId=>[generationName, modelName].
-
-Привести ключи к натуральным числам с помощью (int).
-
-Отфильтровать значения c FILTER_SANITIZE_STRING.
 
 Превратить в массив generationId=>[generationName, modelId],
 используя массив modelName=>id из предыдущего шага.
@@ -76,10 +68,6 @@ id, year, run - взять из выгрузки,
 для набора mark, model, generation, generation_id 
 взять из выгрузки generation_id,
 
-id, year, run, generation_id
-привести к натуральным числам с помощью (int),
-
 использовать массивы name=>id пяти таблиц вида name+id
 (colors, transmissions, body_types, engine_types, gear_types)
-для получения соответствующих внешних ключей по данным из выгрузки
-(фильтровать исходные значения c FILTER_SANITIZE_STRING).
+для получения соответствующих внешних ключей по данным из выгрузки.
